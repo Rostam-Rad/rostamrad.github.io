@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+img{
+  border-radius: 50%;
+}
 h1 {
   color: #426696;
   font-weight: 600;
@@ -221,8 +224,14 @@ main {
     animation: fill-bar4 3s normal;
     animation-fill-mode: forwards;
     border-radius: 2rem;
-
-
+}
+.jsProgress{
+    height: 100%;
+    width: 0%;
+    background-color:#426696;
+    animation: fill-bar4 3s normal;
+    animation-fill-mode: forwards;
+    border-radius: 2rem;
 }
 #background-wrap {
   bottom: 0;
