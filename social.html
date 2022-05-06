@@ -11,31 +11,33 @@
     />
     <link rel="stylesheet" href="Skills.css" />
   </head>
-    <body>
-      <div id="mySidenav" class="sidenav">
+  <body>
+    <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="index.html">About Me</a>
       <a href="skills.html">Skills</a>
       <a href="projects.html">Projects</a>
-      <a href="social.html">Social</a>
-    </div>
-    <button style="opacity:0.7;width:6%;border-radius:2rem;background-color:Transparent;position:absolute;left:2;top:1;cursor:pointer;" onclick="openNav() ">Menu</button>
-    <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "200px";
-      document.getElementById("main").style.marginLeft = "200px";
-    }
+      <a href="">Social</a>
+  </div>
+  <button style="opacity:0.7;width:6%;border-radius:2rem;background-color:Transparent;position:absolute;;top:1;cursor:pointer;" onclick="openNav() ">Menu</button>
 
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-      document.getElementById("main").style.marginLeft = "0";
-    }
-    </script>
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "200px";
+    document.getElementById("main").style.marginLeft = "200px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+  </script>
     <main>
+
       <section class="glass">
         <div class="dashboard">
           <div class="user">
-            <img src="bluePic.jpg" height = 60 height = 50 >
+            <img src="bluePic.jpg" alt="" width= 60 height = 60>
             <h3>Rostam Boroumand Rad</h3>
             <p>Software Engineer</p>
           </div>
@@ -63,30 +65,33 @@
             <h1>Search</h1>
             <input type="text" />
           </div>
-          <p>Welcome! My name is Rostam Boroumand Rad and I am a student at UMBC studying computer science. I am motivated to constantly develop my skillset and grow professionally </p>
-          <p>Hobbies: Fishing, Gardening, Reading, and Playing Sports</p>
+          <div class="cards">
+            <div class="card">
+              <img src="link.png" alt="" width= 60 height = 60>
+                <a href="https://www.linkedin.com/in/rostam-boroumand-rad-63b951228/">LinkedIn</a>
+            </div>
+            <div class="card">
+              <img src="social.png" alt="" width= 60 height = 60>
+              <a href="https://twitter.com/Ratamataz">Twitter</a>
+            </div>
+
         </div>
       </section>
-
     </main>
     <div id="background-wrap">
-    <div class="circle1"></div>
-    <div class="circle2"></div>
-    <div class="circle3"></div>
-    <div class="circle4"></div>
-    <div class="circle5"></div>
-    <div class="circle6"></div>
-    <div class="circle7"></div>
-    <div class="circle8"></div>
-    <div class="circle9"></div>
-    <div class="circle10"></div>
-    <div class="circle11"></div>
-    <div class="circle12"></div>
-    <div class="circle13"></div>
-    <div class="circle10"></div>
-    </div>
-
-  
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
+      <div class="circle4"></div>
+      <div class="circle5"></div>
+      <div class="circle6"></div>
+      <div class="circle7"></div>
+      <div class="circle8"></div>
+      <div class="circle9"></div>
+      <div class="circle10"></div>
+      <div class="circle11"></div>
+      <div class="circle12"></div>
+      <div class="circle13"></div>
+      <div class="circle10"></div>
   </body>
-  
 </html>
